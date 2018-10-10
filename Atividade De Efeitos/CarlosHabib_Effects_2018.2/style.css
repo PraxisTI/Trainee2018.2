@@ -1,0 +1,34 @@
+.quadrado{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	position: relative;
+	top: 50px;
+	animation: girar 2s infinite alternate;
+}
+@keyframes aumentar{
+	from{
+		height: 200px;
+		width: 200px;
+		border-radius: 0px;
+		background-color: red; 
+	}
+	to{
+		height: 400px;
+		width: 400px;
+		border-radius: 50%;
+		background-color: green; 
+}
+}
+@keyframes girar{
+	0%{
+		margin-left: 5px;
+		background-color: cyan;
+		transform: rotate(0deg);
+	}
+	100%{
+		background-color: magenta;
+		margin-left: 500px;
+		transform: rotate(359deg);
+	}
+}
