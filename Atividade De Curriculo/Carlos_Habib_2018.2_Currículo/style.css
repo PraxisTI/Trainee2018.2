@@ -1,0 +1,88 @@
+.texto{
+	font-size: 20px;
+	color: white;
+}
+img {
+		-webkit-animation: rotation 2s infinite linear;
+		margin-top: 50px;
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+div{
+	position: center;
+}
+img{
+	height: 400px;
+	float: right;
+	margin-right: 500px;
+}
+h1{
+	color: white;
+}
+h2{
+	color: white;
+	margin-left: 5px;
+}
+li{
+	margin-left: 5px;
+}
+#objetivo{
+	margin-top: -20px;
+}
+.checkbox{
+	margin-left: 370px;
+	position:relative;
+	top: 3px;
+}
+@keyframes colorChange{
+	from{background-color: black;}
+	to{background-color: red;}
+}
+#div1{
+	background-color: black;
+	width: 600px;
+	border-radius: 10px;
+	animation: colorChange 2s infinite alternate ease-in;
+}
+#div2{
+	background-color: black;
+	width: 600px;
+	border-radius: 10px;
+	animation: colorChange 2s infinite alternate ease-in;
+	animation-delay: 2s;
+}
+#div3{
+	background-color: black;
+	width: 600px;
+	border-radius: 10px;
+	animation: colorChange 2s infinite alternate ease-in;
+	animation-delay: 4s;
+}
+#div4{
+	background-color: black;
+	width: 600px;
+	border-radius: 10px;
+	animation: colorChange 2s infinite alternate ease-in;
+	animation-delay: 6s;
+}
+#div5{
+	background-color: black;
+	width: 600px;
+	border-radius: 10px;
+	animation: colorChange 2s infinite alternate ease-in;
+	animation-delay: 8s;
+}
+#div6{
+	background-color: black;
+	width: 600px;
+	border-radius: 10px;
+	animation: colorChange 2s infinite alternate ease-in;
+	animation-delay: 10s;
+}
+

@@ -1,0 +1,10 @@
+body{color: white;}
+h1{font-size: 40px;margin-left: 30%; color: cyan;}
+.afastamento{margin-left: 35%;}
+div{background-color: rgba(1,1,1,0.6);}
+#imagem{margin-left: 22%;width:80px; position:absolute;}
+a:link{text-decoration: none;color: white;}
+a:hover{text-decoration: underline; color:white ;}
+a:visited{color: cyan;}
+div h1 a:link{text-decoration: none;color: cyan;}
+div h1 a:hover{text-decoration: underline; color:cyan ;}

@@ -1,0 +1,57 @@
+body{
+	font-family: helvetica,sans-serif;
+	background-image: url('spn.png');
+	background-attachment: scroll;
+}
+
+a:hover{
+	text-decoration: none;
+	
+	
+}
+li a{text-decoration: none;}
+#begin{
+	text-align: center;
+}
+#pess{
+	text-align: left;
+}
+
+
+#mim{
+	text-align: center;
+}
+#mi{
+	text-align: center;
+
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.content a:visited{
+	color:white;
+}
+.content a{
+	display:inline;
+	background-color: green;
+}
+.col{
+	background-color: lightblue;
+	width: 50%;
+	border-bottom: 1px solid #555;
+	display: block;
+}
+.header{
+	background-color: white;
+}	
+.footer{
+	background-color: lightblue;
+}
+.cima{
+	background-color: lightblue;
+}
