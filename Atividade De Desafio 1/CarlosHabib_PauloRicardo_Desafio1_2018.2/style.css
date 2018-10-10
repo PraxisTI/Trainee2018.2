@@ -1,0 +1,534 @@
+*{margin: 0; padding: 0; font-size: 100%; border: none; outline: none;font-weight: 300; box-sizing: border-box; font-family:Roboto;}
+
+img {max-width: 100%;}
+
+#negrito{
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    z-index: 50;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: cyan;
+    color: black;
+}
+
+#logo{
+	float: left;
+    font-size: 2.3em;
+    padding: 14px 40px;
+    color: white;
+}
+
+#logo:hover{
+	color: white;
+}
+
+#img-home{
+    margin-top: -75px;
+    z-index: -2;
+}
+
+#chicobento{
+    width: 280px;
+    float: right;
+    margin: -40% 10%;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.6);
+    border-width: 10px 10px 10px 10px;
+    position: relative;
+    top:10px;
+    z-index: 1;
+}
+
+#descricao{
+	margin-top: -30%;
+	margin-left: 20%;
+	text-align: center;
+	font-size: 20px;
+	width: 540px;
+}
+
+.botao1{
+    text-decoration: none;
+    padding: 5px;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    width: 184px;
+	border-style: solid;
+    border-color: rgba(255,255,255,0.6);
+    border-width: 1px 1px 1px 1px;
+    float: right;
+    position: relative;
+    margin-top: 12%;
+    margin-right: 13.5%;
+    font-size: 20px;
+}
+a:link{
+    text-decoration: none;
+}
+.botao2{
+    text-decoration: none;
+    padding: 5px;
+    width: 184px;
+    background-color: black;
+    opacity: 0.8;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.6);
+    border-width: 1px 1px 1px 1px;
+    text-align: center;
+    float: right;
+    position: relative;
+    margin-top: 15%;
+    margin-right: -13.6%;
+    font-size: 20px;
+}
+#editora{
+    height: 70vw;
+    /*height: 75vw;*/
+}
+#edit{
+    font-size: 4em;
+    text-align: left;
+    margin-left: 35%;
+    margin-top: -35%;
+    position: absolute;
+}
+#anchor{
+    position: relative;
+    top: 30%;
+}
+#sobre{
+	margin-left: 35%;
+	margin-top: -28%;
+	text-align: justify;
+	width: 50%;
+	font-size: 30px;
+}
+#img-edit{
+	width: auto;
+    max-width: 350px;
+	margin-top: 33%;
+	margin-left: 5%;
+}
+#produtos{
+    height: 55vw;
+    background-color: #303030;
+}
+.quadrinhos{
+    margin-top: 1%;
+    margin-left: 15%;
+}
+.textProdutos{
+    position: relative;
+    width: 200px;
+    padding-top: 10%;
+    margin-left: 6%;
+    font-size: 2.5em;
+    color: white;
+}
+#monica{
+    position:relative;
+    padding-top: 1%;
+    height: auto;
+    width: auto;
+    max-height: 300px;
+    max-width: 200px;
+    margin-bottom: 11.4%;
+    border-radius: 3px;
+}
+#textMonica{
+    width:150px;
+    color: white;
+    font-size: 1em;
+    position: relative;
+    margin-top: -9%;
+    left: 6%;
+}
+#monicaHover{
+    display: none;
+    border-radius: 3px;
+    background-color: black;
+    height: 47%;
+    width: 53%;
+    opacity: 0.9;
+}
+#textoHoverMonica{
+    display: none;
+    text-align: justify;
+    font-size: 1.2em;
+    width: 30%;
+    position: absolute; 
+    margin-left: 4%;
+    margin-top: 4%;
+    color: white;
+    opacity: 0;
+    z-index: 5;
+}
+#monica:hover~#monicaHover{
+    display: inline;
+    position: absolute;
+    margin-bottom: 5px;
+    left: 14%;
+    z-index: 4;
+    animation: slide 0.5s;
+}
+#monica:hover~#textoHoverMonica{ 
+    display: inline;
+    animation: opacity 1s forwards;  
+    animation-delay: 0.5s;
+}
+#monica:hover{
+    z-index: 5;
+}
+@keyframes slide{
+    from{width: 0%;}
+    to{width: 53%;}
+}@keyframes slide2{
+    from{
+        width: 0%;}
+    to{
+        width: 53%;
+    }
+}
+@keyframes opacity{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+#feio{
+    position:relative;
+    padding-top: 1%;
+    border-radius: 3px;
+    height: auto;
+    width: auto;
+    max-height: 300px;
+    max-width: 203px;
+    margin-bottom: 11.3%;
+    margin-left: 3%;
+}
+#textFeio{
+    width:150px;
+    color: white;
+    font-size: 1em;
+    position: relative;
+    margin-top: -3.2%;
+    left: 25.4%;
+}
+#feioHover{
+    display: none;
+    border-radius: 3px;
+    background-color: black;
+    height: 47%;
+    width: 53%;
+    opacity: 0.95;
+}
+#textoHoverFeio{
+    display: none;
+    text-align: justify;
+    font-size: 1.15em;
+    width: 34%;
+    position: absolute;
+    left: 44%;
+    color: white;
+    opacity: 0;
+    z-index: 5;
+}
+#feio:hover~#feioHover{
+    display: inline-block;
+    position: absolute;
+    margin-bottom: 5px;
+    left: 31.5%;
+    z-index: 4;
+    animation: slide 0.5s;
+}
+#feio:hover~#textoHoverFeio{ 
+    display: inline;
+    margin-left: 5%;
+    margin-top: 4%;
+    animation: opacity 1s forwards ease;  
+    animation-delay: 0.5s;
+}
+#feio:hover{
+    z-index: 5;
+}
+#astronauta{
+    position:relative;
+    padding-top: 1%;
+    border-radius: 3px;
+    height: auto;
+    width: auto;
+    max-height: 300px;
+    max-width: 203px;
+    margin-bottom: 11.3%;
+    margin-left: 3%;
+}
+#textAstronauta{
+    width:150px;
+    color: white;
+    font-size: 1em;
+    position: relative;
+    margin-top: -3.2%;
+    left: 45.6%;
+}
+#astronautaHover{
+    text-align: right;
+    display: none;
+    position: relative;
+    border-radius: 5px;
+    background-color: black;
+    height: 47%;
+    width: 53%;
+    opacity: 0.95;
+}
+#textoHoverAstronauta{
+    display: none;
+    text-align: justify;
+    font-size: 1.2em;
+    width: 30%; 
+    position: absolute;
+    margin-left: 48%;
+    margin-top: -25%;
+    color: white;
+    opacity: 0;
+    z-index: 5;
+}
+#astronauta:hover~#astronautaHover{
+    display: inline-block;
+    position: absolute;
+    margin-bottom: 5px;
+    left: 12.8%;
+    z-index: 4;
+    animation: slide2 0.5s;
+}
+#astronauta:hover~#textoHoverAstronauta{ 
+    display: inline;
+    margin-left: -49%;
+    margin-top: 4%;
+    animation: opacity 1s forwards ease;  
+    animation-delay: 0.5s;
+}
+#astronauta:hover{
+    z-index: 5;
+}
+#bidu{
+    position:relative;
+    padding-top: 1%;
+    border-radius: 3px;
+    height: auto;
+    width: auto;
+    max-height: 303px;
+    max-width: 203px;
+    margin-bottom: 11%;
+    margin-left: 3%;
+}
+#textBidu{
+    width:150px;
+    color: white;
+    font-size: 1em;
+    position: relative;
+    margin-top: -3.2%;
+    left: 68%;
+}
+#biduHover{
+    text-align: right;
+    display: none;
+    position: relative;
+    left:49%;
+    border-radius: 5px;
+    background-color: black;
+    height: 47%;
+    width: 53%;
+    opacity: 0.95;
+}
+#textoHoverBidu{
+    display: none;
+    text-align: justify;
+    font-size: 1.2em;
+    width: 33%; 
+    position: absolute;
+    margin-left: 48%;
+    margin-top: -25%;
+    color: white;
+    opacity: 0;
+    z-index: 5;
+}
+#bidu:hover~#biduHover{
+    display: inline-block;
+    position: absolute;
+    margin-bottom: 5px;
+    left: 30.5%;
+    z-index: 4;
+    animation: slide2 0.5s;
+}
+#bidu:hover~#textoHoverBidu{ 
+    display: inline;
+    margin-left: -49.5%;
+    margin-top: 3%;
+    animation: opacity 1s forwards;  
+    animation-delay: 0.5s;
+}
+#bidu:hover{
+    z-index: 5;
+}
+#contato{
+    height: 37vw;
+    overflow-x: hidden;
+    background-color: black;
+}
+.faleConosco{
+    color: white;
+    font-size: 2.3em;
+    position: relative;
+    top: -8%;
+    left: 11%;
+}
+.campoNome{
+    position: relative;
+    top: -2%;
+    left: -6.5%;
+    height: 30px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+}
+.campoEmail{
+    position: relative;
+    top: 5%;
+    left: -29%;
+    height: 30px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+}
+.campoMensagem{
+    position: relative;
+    top: 37.5%;
+    left: -51.5%;
+    height: 150px;
+    width: 300px;
+    border-radius: 5px;
+    resize: none;
+}
+#botaoEnviar{
+    font-size: 20px;
+    position: relative;
+    top: 44.5%;
+    left: -59.8%;
+    padding: 10px 27px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 6px #999;
+    color: #333333;
+}
+#botaoEnviar:visited{
+    color:#333333;
+}
+#botaoEnviar:hover{
+    background-color: #dddddd;
+}
+.textoContatos{
+    color: white;
+    position: relative;
+    top: -17%;
+    left: -33%;
+    float: right;
+    font-size: 2.3em;
+}
+.iconTel{
+    position: relative;
+    top: -6%;
+    left: -26%;
+    height: 45px;
+    float: right;
+}
+.numeroTel{
+    font-size: 2em;
+    position: relative;
+    top: -6%;
+    left: -4.5%;
+    float: right;
+    color: white;
+}
+.iconEmail{
+    position: relative;
+    top: 5%;
+    left: -5.5%;
+    height: 45px;
+    float: right;
+}
+.emailContato{
+    font-size: 2em;
+    position: relative;
+    top: 5%;
+    left: 23%;
+    float: right;
+    color: white;
+}
+.iconInsta{
+    position: relative;
+    top: 17%;
+    left: 21.8%;
+    height: 45px;
+    float: right;
+}
+.instagram{
+    font-size: 2em;
+    position: relative;
+    top: 17%;
+    left: 39%;
+    float: right;
+    color: white;
+}
+.iconFace{
+    position: relative;
+    float: right;
+    top: 29%;
+    left: 37.5%;
+    height: 45px;
+}
+.facebook{
+    font-size: 2em;
+    position: relative;
+    top: 30%;
+    left: 53.5%;
+    float: right;
+    color: white;
+}
+#linha{
+    height: 1px;
+    width: 65%;
+    margin-left: 17.5%;
+    position: relative;
+    background-color: white;
+    bottom: 1%;
+}
+#assinatura{
+    bottom: 1%;
+    position: relative;
+    color: white;
+    text-align: center;
+}

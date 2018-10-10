@@ -1,0 +1,319 @@
+body {
+    overflow-x: hidden;
+}
+header {
+    background-color:#4c236b;
+    width: auto;
+    position: fixed;
+    opacity: 0.8;
+    z-index: 100;
+    top: 0;
+}
+
+.navbarit {
+    padding-right: 10vh;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    opacity: 1;
+}
+#menuitens {
+    display: inline-flex;
+    background-color: #4c236b;
+    position: fixed;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+     opacity: 1;
+     color: #ffffff;
+}
+#icon {
+    margin-right: 70vh;
+    height: 10vh;
+    display: inline-flex;
+}
+.footer {
+   background-color:  #4c236b;
+   
+   width: 220vh;
+   -webkit-margin-top-collapse: 90vh;
+   font-family: 'Lato', sans-serif;
+   height: 90vh;
+   top: 30vh;
+
+}
+.foottxt {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    position: relative;
+    display: block; 
+    left: 10vh;
+}
+.formi {
+    color: #281238;
+    margin-top: 2vh;
+    top: 13vh;
+    bottom: 5vh;
+    display: inline-block;
+    width: 60vh;
+    font-size: 3vh;
+    border-radius: 1vh;
+    position: relative;
+    display: block;
+    left: 15vh;  
+     
+}
+#desci {
+    height: 20vh;
+    text-align: unset;
+    font-family: 'Roboto', sans-serif;
+    color: #281238;
+
+}
+
+#map {
+    top: 30vh;
+    position: absolute;
+    display: flex;
+    left:95vh;
+    
+}
+#maptxt {
+    left:95vh;
+    top: 20vh;
+    display: flex;
+    position: absolute;
+    
+}
+
+#contatot {
+    top: 10vh;
+    display: flex;
+    position: relative;
+    left: 15vh;
+}
+#socialnet {
+    top: 5vh;
+    display: inline;
+    position: absolute;
+    left: 15vh;
+}
+.foticon {
+    position:  relative;
+    height: 10vh;
+    left: 100vh;
+    top: 5vh;
+    margin-right: 10vh;
+}
+.bt2 {
+    background-color: #ffffff;
+    color: #281238;
+    font-size: 3vh;
+    border-radius: 2vh;
+    width: 20vh;
+    font-family: 'Roboto', sans-serif;    
+}
+.bt2:active {
+    color: #ffffff;
+    background-color: #281238;
+}
+#btsd {
+    width: 20vh;
+    top: 15vh;
+    display: inline-flex;
+    left: 15vh;
+    position: relative;
+}
+#btsd:active {
+    color: #ffffff;
+    background-color: #281238;
+}
+
+#line {
+    position : absolute;
+    top: 85vh;
+    left: 35%;
+    display: flex;
+    font-size: 3vh;
+    text-align: center;
+    align-self: center;
+}
+#iframec {
+    position: relative;
+    display: inline-flex;
+    top: 0vh;
+    height: 1000vh;
+}
+a { 
+    color: #ffffff;
+    border-style: none;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+#socialnet {
+    position: top 10%;
+}
+#imgcover {
+    width: 100%;
+    height: auto;
+    top: 0;
+}
+#titlecover {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10vh;
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+    left: 35%;
+    top: 40%;
+    margin-right: 20%;
+    background-color: #4c236b;
+    opacity: 0.7;
+}
+#bcover {
+    position: absolute;
+    display: inline-flex;
+    top: 80%;
+    left: 60%;
+    font-size: 250%;
+    width: auto;
+    border-radius: 3.5vh; 
+}
+#tsobre {
+    margin-top: 12vh;
+    display: block;
+    color: #4c236b;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 10vh;
+    transition-duration: 1s;
+    width: auto;
+}
+.sobre {
+    margin-left: 0;
+    margin-right: 0;
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 3vh;
+}
+
+.titles {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+    color: #281238;
+    margin-left: 30vh;
+    display: block;
+    position: relative;
+    width: auto;
+}
+
+#ipresidente {
+    border: solid #bb6bf8;
+    border-radius: 100%;
+    height: 25vh; 
+    margin-left: 20vh;
+    display: block;
+    position: absolute;
+    transition-duration: 1s;
+
+}
+
+
+#ipresidente:hover {
+    border: solid #281238;
+    transition-duration: 1s; 
+    display: block;
+    position: absolute;
+}
+#sobretxt {
+    display: block;
+    margin-left: 60vh;
+    font-size: 4vh;
+    width: 110vh;
+    height: auto;
+    padding-bottom: 20vh;
+}
+
+#tsobre:hover {
+    text-decoration: underline;
+    color: #281238;
+    transition-duration: 1s;
+}
+.figure-box {
+    width: 220vh;
+    position: relative;
+}
+/*aqui eu dimensiono toda a div figure*/
+.figure-box figure {
+    overflow: hidden; /*isso interfere na animação*/
+    position: relative;
+
+}
+/*aqui eu defino as propiedades*/
+.figure-box figure img {
+    width: 220vh;
+    position: relative;
+}
+/*abaixo está o que controla a legend caption*/
+.figure-box figcaption {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    width: 220vh;
+    height: auto;
+    background-color: #281238;
+    color: #ffffff;
+    opacity: 0;
+    transition: transform 0.6s opacity 0.3s 0.1s;
+    transform: translateY(100%)
+}
+/*isso é SOMENTE o evento hover do caption*/
+.figure-box figure:hover figcaption {
+    opacity: 0.8;
+    transform: translateY(0%);
+    transition: transform 0.6s;
+    font-family: 'Roboto', sans-serif;
+    padding: 5% 5% 5% 5%;
+}/*esse cara gera animação na imagen*/
+.figure-box figure:hover {
+}
+#fonte {
+    font-size: 7vh;
+    text-align: initial;
+}
+#text {
+    text-align: justify;
+    font-size: 5vh;
+    padding-right: 15%;
+}
+
+#embarcar_europa {
+
+    font-size: 5vh;
+    width: auto;
+
+}
+
+#embarcar_asia {
+
+    font-size: 5vh;
+    width: auto;
+
+}
+#embarcar_afrika {
+
+    font-size: 5vh;
+    width: auto;
+
+}
+
+#fonte:hover {
+
+    text-decoration: underline;
+}
